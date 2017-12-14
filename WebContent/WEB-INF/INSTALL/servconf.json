@@ -1,0 +1,15 @@
+{
+  "name":"BeeUpTextAnnotationService",
+  "urlidentifier":"TextAnnotation",
+  "url":"http://vienna-omilab.dke.univie.ac.at:8080/BeeUpTextAnnotationService/",
+  "visible":true,
+  "description":"Allows to annotate the Bee-Up Case Study text online",
+  "developer":"Anonymous",
+  "servicenavigationitems": [
+    {
+      "name":"Annotation Service",
+      "endpoint":"annotationservice",
+      "mandatory":false
+    }
+  ]
+}

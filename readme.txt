@@ -4,8 +4,10 @@ client side, so the service itself focuses on delivering those JavaScripts and
 the content to annotate.
 
 
+
 A packed war file almost ready to deploy can be found in the "build" folder,
 although some additional configuration is necessary.
+
 
 
 In the current state it:
@@ -14,12 +16,14 @@ In the current state it:
 * always provides the same text to annotate.
 
 
+
 What is necessary to configure:
 * the WEB-INF folder contains a "config.cfg" which specifies where the
   JavaScripts are located on the internet. This has to be configured when
   deploying the service. See the comments in the "config.cfg" for more details.
 * the folder INSTALL in WBE-INF contains a JSON configuration for the OMiLAB
   PSM. Adapt it as necessary (urlidentifier, url) and use it.
+
 
 
 The JavaScript and HTML content portion of the service has been tested with the

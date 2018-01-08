@@ -5,6 +5,12 @@ the content to annotate.
 
 
 
+Information about the used 3rd party JavaScripts can be found in the folder
+WebContent > WEB-INF > 3rd Party Info.
+The used libraries can be found in WebContent > WEB-INF > lib
+
+
+
 A packed war file almost ready to deploy can be found in the "build" folder,
 although some additional configuration is necessary.
 
